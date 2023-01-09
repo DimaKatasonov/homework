@@ -89,3 +89,67 @@ while(num1 <= num){
 // int result = num % 10; 
 // Console.Write ($"Последняя цифра трехзначного числа {result}");
 
+
+// Семинар 2. Работа на семинаре 
+
+//Напишите программу, которая выводит случайное трёхзначное число
+// и удаляет вторую цифру этого числа.
+
+//  456 -> 46
+
+// int number = new Random().Next(100, 1000);
+// int result = (number/100)*10 + number%10;
+// Console.WriteLine($"{number} -> {result}");
+// Console.WriteLine($"{number} -> {number/100}{number%10}");
+
+/* int number = new Random().Next(10, 100);
+Console.Write($"{number}");
+int number1 = number/10; 
+int number2 = number%10;
+if (number1 > number2)
+{
+  Console.Write($"Большая цифра {number1} ");
+}
+else
+{
+   Console.Write($"Большая цифра {number2} ");
+}
+*/
+
+// Console.Write ("Введите первое число: ");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.Clear();
+// Console.Write ("Введите второе число: ");
+// int b = int.Parse(Console.ReadLine()!);
+// Console.Clear();
+// if (a%b==0){
+//   Console.Write($"Число {a} кратно числу {b}");
+// }
+// else
+//   Console.Write($"Числа {a} и {b} - не кратные с остатком {a%b}");
+
+//Продолжаем работать на семинаре. 
+
+// Console.Write ("Введите число: ");
+// int number = int.Parse(Console.ReadLine()!);
+// if ((number % 7 == 0) && (number % 23 == 0)){
+//   Console.Write($"Число {number} кратно 7 и 23 одновременно");
+// }
+// else{
+//   Console.Write($"Число {number} не кратно 7 и 23 одновременно");
+// }
+
+// 4 задача на семинаре 
+
+// Console.Write ("Введите первое число: ");
+// int first_number = int.Parse(Console.ReadLine()!);
+// Console.Write ("Введите второе число: ");
+// int second_number = int.Parse(Console.ReadLine()!);
+// if ((first_number == Math.Pow(second_number, 2)) || (second_number == Math.Pow(first_number, 2)))
+// {
+//   Console.Write($"Квадрат числа");
+// }
+// else
+// {
+//   Console.Write($"Никакое число не явлется квадратом");
+// }
