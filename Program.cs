@@ -153,3 +153,101 @@ else
 // {
 //   Console.Write($"Никакое число не явлется квадратом");
 // }
+
+
+// Работа на семинаре 3
+
+// Console.Write("Введите число: ");
+// int num = int.Parse(Console.ReadLine()!);
+
+// switch (num)
+// {
+//     case 1:{
+//         Console.WriteLine("Это понедельник");
+//         break;
+//     }
+//     case 2:{
+//         Console.WriteLine("Это вторник");
+//         break;
+//     }
+//     default:{
+//         Console.WriteLine("Ошибка!!!");
+//         break;
+//     }
+// }
+
+// Задача 2 на семинаре 
+// Console.Write ("Введи X: ");
+// int x = int.Parse(Console.ReadLine()!);
+
+// Console.Write ("Введи Y: ");
+// int y = int.Parse(Console.ReadLine()!);
+
+// if (x > 0 && y > 0)
+// {
+//   Console.Write ($"Это первая четверть");
+// }
+
+// if (x < 0 && y > 0)
+// {
+//   Console.Write ($"Это вторая четверть");
+// }
+
+// if (x < 0 && y < 0)
+// {
+//   Console.Write ($"Это третья четверть");
+// }
+
+// if (x > 0 && y < 0)
+// {
+//   Console.Write ($"Это четвертая четверть");
+// }
+
+// Console.Write("Введите номер четверти ");
+// int num = int.Parse(Console.ReadLine()!);
+// switch (num)
+// {
+//   case 1:{
+//     Console.Write($"В этой четверти X > 0 и Y > 0");
+//     break;
+//   }
+
+//   case 2:{
+//     Console.Write($"В этой четверти X < 0 и Y > 0");
+//     break;
+//   }
+
+//   case 3:{
+//     Console.Write($"В этой четверти X < 0 и Y < 0");
+//     break;
+//   }
+
+//   case 4:{
+//     Console.Write($"В этой четверти X > 0 и Y < 0");
+//     break;
+//   }
+
+//   default:{
+//     Console.Write($"Цифра введена неверно");
+//     break;
+//   }
+// }
+
+
+// Console.WriteLine("Введите координату X точки 1: ");
+// int num1 = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координату Y точки 1: ");
+// int num2 = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координату X точки 2: ");
+// int num3 = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координату Y точки 2: ");
+// int num4 = int.Parse(Console.ReadLine()!);
+// double res = Math.Sqrt(Math.Pow(num3 - num1, 2) + Math.Pow(num4 - num2, 2));
+// Console.Write($"Расстояние между точками: {res:f2}");
+
+// Console.Write("Введите какое-то число: ");
+// int num = int.Parse(Console.ReadLine()!);
+// for (int i = 1; i <= num; i++)
+// {
+//   Console.Write($"{Math.Pow(i, 2)} ");
+// }
