@@ -170,3 +170,67 @@
 // }
 
 // Домашняя работа по 3-му семинару 
+
+// Задача 1
+
+// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+// Проверка на пятизначность обязательна
+// 14212 -> нет
+// 12821 -> да
+// 23432 -> да
+
+// Console.Write("Введите пятизначное число: ");
+// int num = int.Parse(Console.ReadLine()!); 
+// string palindrome = Convert.ToString(num); 
+// if (palindrome.Length == 5)
+// {
+//     if ((palindrome[0] == palindrome[4]) && (palindrome[1] == palindrome[3]))
+//     {
+//         Console.Write($"Число {num} является палиндромом ");
+//     }
+//     else {
+//         Console.Write($"Число {num} не является палиндромом ");
+//     }
+// }
+// else
+// {
+//     Console.Write($"Число введено неверно");
+// }
+
+// Задача 2
+
+// Напишите программу, которая принимает на вход координаты двух точек 
+// и находит расстояние между ними в 3D пространстве.
+
+// A (3,6,8); B (2,1,-7), -> 15.84
+// A (7,-5, 0); B (1,-1,9) -> 11.53
+
+// Console.WriteLine("Введите координату X точки 1: ");
+// int num1 = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координату Y точки 1: ");
+// int num2 = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координату Z точки 1: ");
+// int num3 = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координату X точки 2: ");
+// int num4 = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координату Y точки 2: ");
+// int num5 = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координату Z точки 2: ");
+// int num6 = int.Parse(Console.ReadLine()!);
+// double res = Math.Sqrt(Math.Pow(num4 - num1, 2) + Math.Pow(num5 - num2, 2) + Math.Pow(num6 - num3, 2));
+// Console.Write($"Расстояние между точками: {res:f2}");
+
+
+// Задача 3
+
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+// Console.Write("Введите любое число ");
+// int cube = int.Parse(Console.ReadLine()!); 
+// for (int i = 1; i <= cube; i++)
+// {
+//     Console.Write($"{Math.Pow(i, 3)} ");
+// }
